@@ -1,0 +1,29 @@
+@font-face{
+	/*폰트가 저장되어 있는 위치 지정*/
+	src: url("./fonts/BMHANNAproOTF.otf"); 
+	/*폰트의 이름을 지정해준다*/
+	font-family: "Woowahan"
+}
+
+p {
+	font-family: "Woowahan"; 
+}
+
+#serif{
+	font-family: "Times New Roman","Times",serif;
+}
+#sans-serif{
+	font-family: "Roboto", sans-serif; 
+}
+#monospace{
+	font-family: "PT Mono", monospace;
+}
+#cursive{
+	font-family: "Cedarvile Cursive", cursive;
+}
+#fantasy{
+	font-family: "Niconne", fantasy;
+}
+#google{
+	font-family: 'Grenze', serif;
+}
