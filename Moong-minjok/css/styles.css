@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+@font-face{
+	src:url(../fonts/BMJUA_otf.otf);
+	font-family: Woowahan;
+}
+body{
+	font-family: Woowahan;
+	color: #58595B;
+	background-color: #F0E8DA;
+
+}
+h1{
+	text-align: center;
+	font-size: 64px;
+	margin-top: 75px;
+	margin-bottom: 30px;
+}
+h2{
+	text-align: center;
+	font-size:32px;
+	margin-bottom: 75px;
+}
+.container{
+	background-color: white;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+	text-align: center;
+/*	image에 radius 적용하는 두번째 방법
+삐저나오는 image 자투리 부분을 hidden처리 하면서 둥근 모서리를 얻을 수 있다!*/
+	border-radius: 10px;
+	overflow: hidden;
+}
+/*image에 radius 적용하는 첫번째 방법*/
+/*.container img{
+	 border-top-right-radius: 10px;
+	 border-top-left-radius: 10px;
+}*/
+.container h3{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-size: 32px;
+}
+.container p{
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 16px;
+}
+.container a{
+	font-size: 16px;
+	text-decoration: none;
+	color: #0000EE;
+}
+.container .info{
+	padding: 20px;
+}
