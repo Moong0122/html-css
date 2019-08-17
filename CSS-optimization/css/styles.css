@@ -1,0 +1,10 @@
+h2 {
+  padding: 20px;
+  font-size: 30px;
+}
+.box-one h2 {
+  background: #4CAF50;
+}
+.box-two h2 {
+  background: #00BCD4;
+}
