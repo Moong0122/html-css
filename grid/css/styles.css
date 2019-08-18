@@ -4,6 +4,8 @@ body {
 
 div {
 	height: 200px;
+	float: left;
+	/*이렇게 한줄 만으로도 가능하다*/
 }
 
 #red {
@@ -12,30 +14,27 @@ div {
 }
 
 #orange {
-	width: 200px;
+	width: 25%;
 	background-color: #FFA500;
-	float: left;
 }
 
 #yellow {
-	width: 100%;
+	width: 50%;
 	background-color: #FFFF00;
 }
 
 #green {
-	width: 200px;
+	width: 25%;
 	background-color: #008000;
-	float: right;
 }
 
 #blue {
 	width: 50%;
 	background-color: #0000FF;
-	float: left;
 }
 
 #indigo {
-	width: 100%;
+	width: 50%;
 	background-color: #4B0082;
 }
 
