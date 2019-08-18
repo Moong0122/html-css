@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+div {
+	height: 200px;
+}
+
+#red {
+	width: 100%;
+	background-color: #FF0000;
+}
+
+#orange {
+	width: 200px;
+	background-color: #FFA500;
+	float: left;
+}
+
+#yellow {
+	width: 100%;
+	background-color: #FFFF00;
+}
+
+#green {
+	width: 200px;
+	background-color: #008000;
+	float: right;
+}
+
+#blue {
+	width: 50%;
+	background-color: #0000FF;
+	float: left;
+}
+
+#indigo {
+	width: 100%;
+	background-color: #4B0082;
+}
+
+#purple {
+	width: 100%;
+	background-color: #800080;
+}
