@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+/*제일 큰 클래스부터 차례대로 쓰면 훨씬 보기 편하다!!!
+.navbar에 어떤 수정사항이 있는지 확인할 수 있다 */
+.navbar {
+	height: 60px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.navbar #logo {
+	/*세로정렬할때 사용했*/
+	/*background-color: orange;*/
+	line-height: 60px;
+}
+.navbar #logo img {
+	vertical-align: middle;
+}
+.navbar #menu {
+	float: right;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.navbar #menu li {
+	float: left;
+	margin-left: 50px;
+	line-height: 60px;
+}
+.navbar #menu li a {
+	color: #545454;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.hero-header {
+	height: 450px;
+	background-image: url(../images/hero_header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.products h3 {
+	font-size: 24px;
+	color: #545454;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.product-list {
+	width: 735px;
+	margin-left:auto;
+	margin-right: auto;
+}
+.product {
+	width: 225px;
+	text-align: center;
+	display: block;
+	color: #545454;
+	text-decoration: none;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 80px;
+}
+.product-name {
+	margin-top: 20px;
+	margin-bottom: 4px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.footer {
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:80px;
+}
+.footer a{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+}
