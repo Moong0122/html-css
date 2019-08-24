@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+#div1 {
+    background-color: red;
+    height: 60px;
+    width: 100%;
+}
+#div2 {
+    background-color: orange;
+    height: 350px;
+    width: 100%;
+}
+#div3 {
+    background-color: yellow;
+    height: 320px;
+    width: 100%;    
+}
+#div4 {
+    background-color: green;
+    height: 385px;
+    width: 100%;    
+}
+#div5 {
+    background-color: blue;
+    height: 200px;
+    width: 100%;    
+}
+#div6 {
+    background-color: purple;
+    height: 200px;
+    width: 100%;    
+}
+
+@media (min-width: 768px) {
+    /*밑에 992px에서는 div float 작성 안 해도 되는 이유:
+    여기 768px이상부터는 다 적용되니까 추가로 지정해줄 필요가 없다*/
+    div {
+    float:left;
+    }
+    #div2 {
+        height: 562px;
+    }
+    #div3 {
+        height: 282px;
+    }
+    #div4 {
+        height: 360px;
+        width: 50%;
+    }
+    #div5 {
+        height: 180px;
+        width: 50%;
+    }
+    #div6 {
+        height: 180px;
+        width: 50%;
+    }
+}
+@media (min-width: 992px){
+    #div2 {
+        height: 700px;
+        width: 50%;
+    }
+    #div3 {
+        height: 350px;
+        width: 50%;
+    }
+    #div4 {
+        height: 350px;
+        width: 25%;
+    }
+    #div5 {
+        height: 175px;
+        width: 25%;
+    }
+    #div6 {
+        height: 175px;
+        width: 25%;
+    }
+}
