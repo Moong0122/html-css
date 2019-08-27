@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #424242;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 60px;
+}
+.navbar .logo {
+	font-size: 20px;
+	color: white;
+}
+.banner {
+    height: 350px;
+    width: 100%;
+    background-image: url(../images/main_img.jpg);
+    background-repeat: no-repeat;
+    /*비율을 유지하면서 꽉 차기*/
+    background-size: cover;
+    /*가로세로 가운데 정렬을 하기*/
+    background-position: center center;
+}
+.info {
+    height: 320px;
+    width: 100%;  
+    padding: 0px 30px;
+} 
+.info .helper {
+	display: inline-block;
+	height: 100%;
+/*	width: 10px;*/
+/*더 이해하기 쉽게 하기 위해서 색을 입혔다*/
+/*	background-color: blue;*/
+	vertical-align: middle;
+}
+.info .info-container {
+	display: inline-block;
+/*더 이해하기 쉽게 하기 위해서 색을 입혔다*/
+/*	background-color: orange;*/
+/*	여기서 info-container가 width를 100% 차지하고 있어서 나란히 있지 못하고 밑으로 내려와버린다
+	그래서 임시로 width를 300으로 바꾸었다 그러면 우리가 의도하는 그림을 볼 수 있다!*/
+/*	width: 300px;*/
+	vertical-align: middle;
+	padding: 0px 30px;
+}
+.info .label {
+	font-size: 16px;
+	color: #424242;
+}
+.info h2 {
+	font-size: 20px;
+	color: #1B1B1B;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.info p {
+	font-size: 16px;
+	color: #7A7A7A;
+	margin:0;
+}
+.img-div1 {
+    height: 385px;
+    width: 100%;    
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.img-div2 {
+    height: 200px;
+    width: 100%;    
+    background-image: url(../images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+}
+.img-div2 .helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.img-div2 a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border: 4px solid white;
+	padding: 9px 40px; 
+	vertical-align: middle;
+}
+.img-div3 {
+    height: 200px;
+    width: 100%;    
+    background-image: url(../images/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+@media (min-width: 768px) {
+    /*밑에 992px에서는 div float 작성 안 해도 되는 이유:
+    여기 768px이상부터는 다 적용되니까 추가로 지정해줄 필요가 없다*/
+    .col {
+    float:left;
+    }
+    .banner {
+        height: 562px;
+    }
+    .info {
+        height: 282px;
+    }
+    .info .info-container {
+    	padding: 0px 65px;
+    }
+    .img-div1 {
+        height: 360px;
+        width: 50%;
+    }
+    .img-div2 {
+        height: 180px;
+        width: 50%;
+    }
+    .img-div3 {
+        height: 180px;
+        width: 50%;
+    }
+}
+@media (min-width: 992px){
+    .banner {
+        height: 700px;
+        width: 50%;
+    }
+    .info {
+        height: 350px;
+        width: 50%;
+    }
+    .img-div1 {
+        height: 350px;
+        width: 25%;
+    }
+    .img-div2 {
+        height: 175px;
+        width: 25%;
+    }
+    .img-div3 {
+        height: 175px;
+        width: 25%;
+    }
+}
