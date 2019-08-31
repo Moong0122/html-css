@@ -28,10 +28,11 @@ body {
 	margin:0;
 	padding: 10px 30px;
 }
+#carouselExampleIndicators {
+	margin-bottom: 50px;
+}
 #yellow {
-	margin-top: 50px;
 	border-radius: 5px;
-	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -51,4 +52,32 @@ body {
 }
 .cooking {
 	background-position: center center;
+}
+
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container a {
+	text-decoration: none;
+}
+.container .outer {
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+}
+.info {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.info h1 {
+	font-size: 18px;
+	color: #4A4A4A;
+	margin-bottom: 10px;
+}
+.info p {
+	margin-bottom: 0px;
+	display: inline-block;
+	font-size: 13px;
+	color: #4A4A4A;
+	vertical-align: middle;
 }
