@@ -2,82 +2,87 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-.text {
-	vertical-align: middle;
-	padding: 0;
-	/*밑에 세로 정렬이 헷갈린다*/
-	top:126.5px;
-	bottom:126.5px;
-}
-.text h1 {
-	font-size: 32px;
-	color: white;
-	margin:0;
-}
-.text h2 {
-	font-size: 20px;
-	color: white;
-	margin-top:18px;
-	margin-bottom: 48px;
-}
-.text a {
-	font-size: 16px;
-	color: white;
-	text-decoration: none;
-	background-color: #5900E7;
-	margin:0;
-	padding: 10px 30px;
-}
-#carouselExampleIndicators {
-	margin-bottom: 50px;
-}
-#yellow {
-	border-radius: 5px;
-	margin-left: auto;
-	margin-right: auto;
-}
 .carousel-item {
-  height: 400px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background-color: gray;
+	height: 400px;
+	background-size: cover;
+	text-align: center;
 }
-.music {
+/*carousel-item과 item1~3을 붙여쓰지 않으면 브라우저에서 작동하지 않는다!*/
+.carousel-item.item1 {
+	background-image: url('../images/guitar.jpg');
 	background-position: left center;
 }
-.makeup {
+.carousel-item.item2 {
+	background-image: url('../images/makeup.jpg');
 	background-position: center top;
 }
-.cooking {
+.carousel-item.item3 {
+	background-image: url('../images/cooking.jpg');
 	background-position: center center;
 }
 
+.intro {
+	display: inline-block;
+	vertical-align: middle;
+}
+.intro h2 {
+	font-size: 32px;
+	color: white;
+	font-weight: 300;
+	margin-top:0;
+	margin-bottom: 18px;
+}
+.intro h3 {
+	font-size: 22px;
+	color: white;
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 48px;
+}
+.intro a {
+	background-color: #5900E7;
+	border-radius: 2px;
+	padding: 10px 30px;
+	color: white;
+	font-weight: 300;
+}
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
 .container {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
-.container a {
-	text-decoration: none;
-}
-.container .outer {
+
+.course {
+	display: block;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
-}
-.info {
-	padding: 10px;
 	margin-bottom: 20px;
 }
-.info h1 {
+.course:hover {
+	text-decoration: none;
+}
+.course .course-img {
+	display: block; 
+}
+.course .info {
+	padding: 10px;
+}
+.course .info h4 {
 	font-size: 18px;
 	color: #4A4A4A;
+	margin-top: 0;
 	margin-bottom: 10px;
 }
-.info p {
-	margin-bottom: 0px;
-	display: inline-block;
+.course .info .lecturer {
 	font-size: 13px;
 	color: #4A4A4A;
+}
+.course .info .lecturer img,
+.course .info .lecturer .name {
 	vertical-align: middle;
 }
